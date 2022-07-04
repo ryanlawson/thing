@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+boto3 = "1.17.86"
+
+[dev-packages]
+coverage = "5.5"
+pytest = "6.2.4"
+pytest-cov = "2.12.1"
+pytest-mock = "3.6.1"
+pytest-rerunfailures = "10.2"
+
+[scripts]
+test = "pytest --cov=thing"
